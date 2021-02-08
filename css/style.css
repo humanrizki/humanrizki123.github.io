@@ -1,8 +1,9 @@
 body {
     padding : 0;
     margin: 0;
-    height: 600px;
+    height: 2000px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
 }
 div.bckgrd{
     background-color: rgb(194, 194, 194);
@@ -19,12 +20,13 @@ div.bckgrd div.image {
 div.bckgrd div.nama p{
     /* margin-top: 30px; */
     transform: translateY(30px);
-    color: aliceblue;
-    
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #333;
 }
 div.bckgrd img {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
 }
 div.about {
     display: flex;
@@ -42,7 +44,7 @@ div.tentang {
 }
 div.about div.tentang div.p {
     background-color: blue;
-    width: 90%;
+    width: 85%;
     height: 100px;
     justify-content: center;
     display: flex;
@@ -65,4 +67,14 @@ div.about div.tentang div.p p {
     height: auto;
     width: 85%;
     align-items: center;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+div.nav nav{
+    display: block;
+    /* margin-bottom: -70px; */
+    bottom : 0px;
+    background-color: blue;
+    height: 900px;
 }
