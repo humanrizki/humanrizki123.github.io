@@ -1,0 +1,44 @@
+body {
+    padding : 0;
+    margin: 0;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.bckgrd{
+    background-color: rgb(194, 194, 194);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.bckgrd div.image {
+    display: flex;
+}
+div.bckgrd div.nama p{
+    /* margin-top: 30px; */
+    transform: translateY(30px);
+    color: aliceblue;
+    
+}
+div.bckgrd img {
+    height: 50px;
+    width: 50px;
+}
+div.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: wrap;
+}
+div.about p {
+    display: flex;
+    background-color: blue;
+    width: 90%;
+    height: 50px;
+    /* align-content: center; */
+    line-height: 50px;
+    overflow-x: hidden;
+}
