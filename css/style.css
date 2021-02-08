@@ -7,7 +7,7 @@ body {
 div.bckgrd{
     background-image: url('../image/view-computer.jpg');
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 600px;
     background-position:0px 0px;
     background-attachment: fixed;
     width: 100%;
@@ -58,6 +58,59 @@ div.port {
     flex-direction: column;
     justify-content: center;
     flex-flow: wrap;
+}
+div.port div.bungkus-skill {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+div.port div.bungkus-skill div.java{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: auto;
+    /* position: relative; */
+    justify-content: space-around;
+    align-items: center;
+}
+div.port div.bungkus-skill div.java div.gambar {
+    width: 20%;
+    height: 70px;
+    /* margin-right: -20%; */
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+
+}
+div.port div.bungkus-skill div.java div.range {
+    width: 40%;
+    height: auto;
+    line-height: 25px;
+    
+    /* margin-left: 10%; */
+    
+}
+div.port div.bungkus-skill div.java img {
+    height: 50px;
+    width: 50px;
+}
+div.port div.bungkus-skill div.java p.rangep {
+    
+    justify-content: flex-end;
+    display: flex;
+    height: auto;
+    float: right;
+    margin: 50px 0px;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 5px;
 }
 div.about div.tentang div.p {
     background-color: blue;
@@ -117,11 +170,19 @@ div.nav nav ul {
     list-style: none;
     color: white;
 }
+div.skill img {
+    width: 50px;
+    height: 50px;
+}
 div.nav nav ul li:nth-child(1) a {
     color: white;
     text-decoration: none;
 }
 div.nav nav ul li:nth-child(2) a {
+    color: white;
+    text-decoration: none;
+}
+div.nav nav ul li:nth-child(3) a {
     color: white;
     text-decoration: none;
 }
