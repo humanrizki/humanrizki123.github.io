@@ -29,16 +29,40 @@ div.bckgrd img {
 div.about {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    
+    
+}
+div.tentang {
+    display : flex;
+    flex-direction: column;
     justify-content: center;
     flex-flow: wrap;
+
 }
-div.about p {
-    display: flex;
+div.about div.tentang div.p {
     background-color: blue;
     width: 90%;
-    height: 50px;
-    /* align-content: center; */
-    line-height: 50px;
-    overflow-x: hidden;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
+div.about div.tentang h1::after {
+    content: '';
+    border: 3px solid black;
+    width: 120px;
+    /* height: 3px; */
+    display: block;
+    display: flex;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+div.about div.tentang div.p p {
+    display: flex;
+    color: white;
+    height: auto;
+    width: 85%;
+    align-items: center;
 }
