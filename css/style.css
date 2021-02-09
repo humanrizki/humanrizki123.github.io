@@ -1,7 +1,7 @@
 body {
     padding : 0;
     margin: 0;
-    height: 2000px;
+    /* height: 500px; */
     font-family: Arial, Helvetica, sans-serif;
 }
 div.bckgrd{
@@ -38,11 +38,69 @@ div.about {
     
     
 }
+div.contact {
+    display: flex;
+    flex-direction: column;
+}
+div.contact {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    
+}
+div.email {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.con div.email:nth-child(2) h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 154, 154);
+    box-shadow: 5px 5px #888888;
+    width: 300px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+div.con div.email:nth-child(2) h3 a::before {
+    content: '';
+    background-image: url('image/github.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+}
+div.con div.email:nth-child(3) h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(179, 179, 179);
+    box-shadow: 5px 5px #888888;
+    width: 300px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+div.con div.email:nth-child(4) h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(113, 223, 103);
+    box-shadow: 5px 5px #888888;
+    width: 300px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+div.email h3 a {
+    color: white;
+    text-decoration: none;
+}
 div.tentang h1 {
     font-size: 30px;
     color: #ccc;
 }
 div.port h1 {
+    font-size: 30px;
+    color: #ccc;
+}
+div.con h1 {
     font-size: 30px;
     color: #ccc;
 }
@@ -58,6 +116,13 @@ div.port {
     flex-direction: column;
     justify-content: center;
     flex-flow: wrap;
+}
+div.con {
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 100%;
 }
 div.port div.bungkus-skill {
     display: flex;
@@ -82,6 +147,7 @@ div.port div.bungkus-skill div.java div.gambar {
     height: 70px;
     /* margin-right: -20%; */
     background-color: #fafafa;
+    box-shadow: 5px 5px 5px #888888;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -108,11 +174,13 @@ div.port div.bungkus-skill div.java p.rangep {
     height: auto;
     float: right;
     background-color: #fafafa;
+    box-shadow: 5px 5px 5px #888888;
     padding: 20px;
     border-radius: 5px;
 }
 div.about div.tentang div.p {
-    background-color: blue;
+    background-color: rgb(144, 144, 255);
+    box-shadow: 5px 5px#888888;
     width: 85%;
     height: 130px;
     justify-content: center;
@@ -125,7 +193,6 @@ div.about div.tentang h1::after {
     width: 120px;
     /* height: 3px; */
     display: block;
-    display: flex;
     margin: auto;
     border-radius: 3px;
     margin-top: 10px;
@@ -136,7 +203,16 @@ div.portfolio div.port h1::after {
     width: 120px;
     /* height: 3px; */
     display: block;
-    display: flex;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+div.contact div.con h1::after {
+    content: '';
+    border: 2px solid black;
+    width: 120px;
+    /* height: 3px; */
+    display: block;
     margin: auto;
     border-radius: 3px;
     margin-top: 10px;
@@ -152,7 +228,12 @@ div.about div.tentang div.p p {
     margin-left: 18px;
     margin-right: 0;
 }
-
+div.contact div.con div.container div.email{
+    display: inline-flex;
+    /* position: absolute; */
+    justify-items: center;
+    align-items: center;
+}
 div.nav {
     display: flex;
     justify-content: center;
@@ -192,4 +273,22 @@ div.nav nav ul li:nth-child(2) a {
 div.nav nav ul li:nth-child(3) a {
     color: white;
     text-decoration: none;
+}
+div.nav nav ul li:nth-child(4) a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+footer div.foot{
+    display: flex;
+    justify-content: center;
+}
+footer div.foot p{
+    color: white;
 }
