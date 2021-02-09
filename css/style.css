@@ -71,7 +71,7 @@ div.port div.bungkus-skill {
 div.port div.bungkus-skill div.java{
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
     height: auto;
     /* position: relative; */
     justify-content: space-around;
@@ -90,7 +90,7 @@ div.port div.bungkus-skill div.java div.gambar {
 
 }
 div.port div.bungkus-skill div.java div.range {
-    width: 40%;
+    width: 60%;
     height: auto;
     line-height: 25px;
     
@@ -153,21 +153,29 @@ div.about div.tentang div.p p {
     margin-right: 0;
 }
 
+div.nav {
+    display: flex;
+    justify-content: center;
+}
 div.nav nav{
-    display: block;
     /* margin-bottom: -70px; */
     bottom : 0px;
     background-color: blue;
     position: fixed;
     width: 100%;
+    display: block;
 }
 div.nav nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
     color: white;
+    margin-left: 5%;
+}
+div.nav nav ul li {
+    margin-left: -20%;
 }
 div.skill img {
     width: 50px;
