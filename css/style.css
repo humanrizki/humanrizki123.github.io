@@ -67,7 +67,7 @@ div.con div.email:nth-child(2) h3:hover{
 }
 div.con div.email:nth-child(2) h3::before {
     content: '';
-    background-image: url('image/gmail.png');
+    background-image: url('/image/gmail.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -92,7 +92,7 @@ div.con div.email:nth-child(3) h3 {
 }
 div.con div.email:nth-child(3) h3::before {
     content: '';
-    background-image: url('image/instagram.png');
+    background-image: url('/image/instagram.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -121,7 +121,7 @@ div.con div.email:nth-child(4) h3:hover{
 }
 div.con div.email:nth-child(4) h3::before {
     content: '';
-    background-image: url('image/whatsapp.png');
+    background-image: url('/image/whatsapp.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
