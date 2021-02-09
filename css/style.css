@@ -58,7 +58,7 @@ div.con div.email:nth-child(2) h3 {
     justify-content: center;
     background-color: rgb(255, 154, 154);
     box-shadow: 5px 5px #888888;
-    width: 320px;
+    width: 80%;
     padding: 15px 0px;
     border-radius: 10px;
 }
@@ -67,7 +67,7 @@ div.con div.email:nth-child(2) h3:hover{
 }
 div.con div.email:nth-child(2) h3::before {
     content: '';
-    background-image: url("image/gmail.png");
+    background-image: url("/image/gmail.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -86,13 +86,13 @@ div.con div.email:nth-child(3) h3 {
     /* background: radial-gradient(circle at 50% 50%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%, #5436); */
     background: radial-gradient(circle at 0% 90%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
     box-shadow: 5px 5px #888888;
-    width: 320px;
+    width: 80%;
     padding: 15px 0px;
     border-radius: 10px;
 }
 div.con div.email:nth-child(3) h3::before {
     content: '';
-    background-image: url("image/instagram.png");
+    background-image: url("/image/instagram.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -112,7 +112,7 @@ div.con div.email:nth-child(4) h3 {
     justify-content: center;
     background-color: rgb(113, 223, 103);
     box-shadow: 5px 5px #888888;
-    width: 320px;
+    width: 80%;
     padding: 15px 0px;
     border-radius: 10px;
 }
@@ -121,7 +121,7 @@ div.con div.email:nth-child(4) h3:hover{
 }
 div.con div.email:nth-child(4) h3::before {
     content: '';
-    background-image: url("image/whatsapp.png");
+    background-image: url("/image/whatsapp.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
