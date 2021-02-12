@@ -53,6 +53,13 @@ div.email {
     display: flex;
     justify-content: center;
 }
+div.email img {
+    margin-left: -22%;
+    margin-top: 8%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
 div.con div.email:nth-child(2) h3 {
     display: flex;
     justify-content: center;
@@ -65,17 +72,7 @@ div.con div.email:nth-child(2) h3 {
 div.con div.email:nth-child(2) h3:hover{
     opacity: .85;
 }
-div.con div.email:nth-child(2) h3::before {
-    content: '';
-    background-image: url("/image/gmail.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    height: 30px;
-    width: 30px;
-    margin-right: 5%;
-    transform: translateX(10%);
-}
+
 div.con div.email:nth-child(2) h3 a {
     display: flex;
     align-items: center;
@@ -83,23 +80,13 @@ div.con div.email:nth-child(2) h3 a {
 div.con div.email:nth-child(3) h3 {
     display: flex;
     justify-content: center;
-    /* background: radial-gradient(circle at 50% 50%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%, #5436); */
     background: radial-gradient(circle at 0% 90%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
     box-shadow: 5px 5px #888888;
     width: 80%;
     padding: 15px 0px;
     border-radius: 10px;
 }
-div.con div.email:nth-child(3) h3::before {
-    content: '';
-    background-image: url("/image/instagram.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    height: 30px;
-    width: 30px;
-    transform: translateX(-20px);
-}
+
 div.con div.email:nth-child(3) h3:hover{
     opacity: .85;
 }
@@ -119,16 +106,7 @@ div.con div.email:nth-child(4) h3 {
 div.con div.email:nth-child(4) h3:hover{
     opacity: .85;
 }
-div.con div.email:nth-child(4) h3::before {
-    content: '';
-    background-image: url("/image/whatsapp.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    height: 30px;
-    width: 30px;
-    margin-right: 5%;
-}
+
 div.con div.email:nth-child(4) h3 a {
     display: flex;
     align-items: center;
