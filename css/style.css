@@ -11,7 +11,7 @@ div.bckgrd{
     background-position:0px 0px;
     background-attachment: fixed;
     width: 100%;
-    height: auto;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
