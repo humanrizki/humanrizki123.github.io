@@ -1,0 +1,32 @@
+body {
+    padding : 0;
+    margin: 0;
+    /* height: 500px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.bckgrd{
+    background-image: url('../image/Asset\ 2.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    background-position:0px -30px;
+    background-attachment:initial;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+div.bckgrd img {
+    height: 100px;
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 40%;
+}
+div.bckgrd div.nama p{
+    /* margin-top: 30px; */
+    transform: translateY(30px) translateX(15px);
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px #333;
+}

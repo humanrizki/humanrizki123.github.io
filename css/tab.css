@@ -7,11 +7,11 @@ body {
 div.bckgrd{
     background-image: url('../image/view-computer.jpg');
     background-repeat: no-repeat;
-    background-size: 600px;
-    background-position:0px 0px;
+    background-size: cover;
+    background-position:0px -20px;
     background-attachment: fixed;
     width: 100%;
-    height: 900px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,14 +22,14 @@ div.bckgrd div.image {
 }
 div.bckgrd div.nama p{
     /* margin-top: 30px; */
-    transform: translateY(30px);
+    transform: translateY(60px);
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     text-shadow: 2px 2px 5px #333;
 }
 div.bckgrd img {
-    height: 80px;
-    width: 80px;
+    height: 140px;
+    width: 140px;
 }
 div.about {
     display: flex;
@@ -54,8 +54,8 @@ div.email {
     justify-content: center;
 }
 div.email img {
-    margin-left: -22%;
-    margin-top: 8%;
+    margin-left: -10%;
+    margin-top: 4%;
     width: 30px;
     height: 30px;
     position: absolute;
@@ -65,7 +65,7 @@ div.con div.email:nth-child(2) h3 {
     justify-content: center;
     background-color: rgb(255, 154, 154);
     box-shadow: 5px 5px #888888;
-    width: 80%;
+    width: 70%;
     padding: 15px 0px;
     border-radius: 10px;
 }
@@ -82,7 +82,7 @@ div.con div.email:nth-child(3) h3 {
     justify-content: center;
     background: radial-gradient(circle at 0% 90%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
     box-shadow: 5px 5px #888888;
-    width: 80%;
+    width: 70%;
     padding: 15px 0px;
     border-radius: 10px;
 }
@@ -99,7 +99,7 @@ div.con div.email:nth-child(4) h3 {
     justify-content: center;
     background-color: rgb(113, 223, 103);
     box-shadow: 5px 5px #888888;
-    width: 80%;
+    width: 70%;
     padding: 15px 0px;
     border-radius: 10px;
 }
