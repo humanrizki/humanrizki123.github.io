@@ -328,3 +328,21 @@ footer div.foot{
 footer div.foot p{
     color: white;
 }
+@media screen and (min-width: 400px) and (max-width: 500px){
+    div.email img {
+        margin-left: -22%;
+        margin-top: 30px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 600px){
+    div.email img {
+        margin-left: -15%;
+        margin-top: 30px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+    }
+}
