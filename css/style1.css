@@ -1,9 +1,103 @@
-
+div.saklar {
+    right: 30px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-top: -12%;
+}
+label.labels {
+    background-color: white;
+}
+label div.balls {
+    background-color: rgb(0, 0, 0);
+}
+div.about div.tentang h1.white {
+    color: white;
+}
+div.portfolio div.port h1.white {
+    color: white;
+}
+div.contact div.con h1.white {
+    color: white;
+}
+div.tentang h1, div.port h1, div.con h1 {
+    transition: all 0.5s;
+}
+body {
+    transition: all 0.5s;
+}
+body.dark {
+    background-color: #888888;
+}
+div.about div.tentang div.white {
+    box-shadow: 5px 5px #fff;
+}
+#checkbox {
+    opacity: 0;
+    position: absolute;
+}
+#checkbox:checked + label .ball {
+    transform: translateX(24px);
+    
+}
+label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 50px;
+}
+div.ball {
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: all 0.5s;
+    position: absolute;
+}
+div.scroll {
+    /* position: fixed; */
+    display: block;
+    position: fixed;
+    width: 128px;
+    height: 128px;
+    right: 20px;
+    bottom: 20px;
+}
+img.gambarbaru {
+    width: 120px;
+    height: 120px;
+    /* position: inherit; */
+    display: none;
+    cursor: pointer;
+}
+div.con div.email:nth-child(2) h3.email2 {
+    box-shadow: 5px 5px #fff;
+}
+div.con div.email:nth-child(3) h3.email3 {
+    box-shadow: 5px 5px #fff;
+}
+div.con div.email:nth-child(4) h3.email4 {
+    box-shadow: 5px 5px #fff;
+}
+div.email img.img1 {
+    box-shadow: 5px 5px #fff;
+}
+div.email img.img2 {
+    box-shadow: 5px 5px #fff;
+}
+div.email img.img3 {
+    box-shadow: 5px 5px #fff;
+}
 @media screen and (min-width: 901px) and (max-width: 1024px) {
     body {
         padding : 0;
         margin: 0;
         /* height: 500px; */
+        
         font-family: Arial, Helvetica, sans-serif;
     }
     div.bckgrd{
@@ -284,6 +378,7 @@
         margin: 0;
         /* height: 500px; */
         font-family: Arial, Helvetica, sans-serif;
+        background-color: #fff;
     }
     div.bckgrd{
         background-image: url('../image/Asset\ 2.svg');
