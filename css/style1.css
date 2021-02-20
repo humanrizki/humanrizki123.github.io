@@ -8,6 +8,36 @@ div.saklar {
 label.labels {
     background-color: white;
 }
+body div.portfolio div.port div.bungkus-skill div.java div.gambar1{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.gambar2{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.gambar3{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.gambar4{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.gambar5{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.range p.rangep1{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.range p.rangep2{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.range p.rangep3{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.range p.rangep4{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
+body div.portfolio div.port div.bungkus-skill div.java div.range p.rangep5{
+    box-shadow: 5px 5px 5px rgb(221, 221, 221);
+}
 label div.balls {
     background-color: rgb(0, 0, 0);
 }
@@ -28,9 +58,6 @@ body {
 }
 body.dark {
     background-color: #888888;
-}
-div.about div.tentang div.white {
-    box-shadow: 5px 5px #fff;
 }
 #checkbox {
     opacity: 0;
@@ -73,6 +100,30 @@ img.gambarbaru {
     /* position: inherit; */
     display: none;
     cursor: pointer;
+}
+div.logo {
+    transform: translateX(-50px);
+    display: flex;
+    flex-direction: row;
+    background-color: #85beff;
+    padding: 5px;
+    border-radius: 30px;
+    width: 70px;
+}
+div.logo i:nth-child(1){
+    color: #ffee00;
+}
+div.logo i:nth-child(2){
+    color: rgb(75, 75, 75);
+}
+div.logo i.matahari {
+    color:rgb(75, 75, 75);;
+}
+div.logo i.bulan {
+    color: #ffee00;
+}
+body div.about  div.tentang > div.boxp {
+    box-shadow: 5px 5px #fff;
 }
 div.con div.email:nth-child(2) h3.email2 {
     box-shadow: 5px 5px #fff;
@@ -174,6 +225,7 @@ div.email img.img3 {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+        transition: all 0.5s;
     }
     div.about div.tentang div.p p {
         display: block;
@@ -233,9 +285,8 @@ div.email img.img3 {
         width: 60%;
         height: auto;
         line-height: 25px;
-        
+
         /* margin-left: 10%; */
-        
     }
     div.port div.bungkus-skill div.java img {
         height: 70px;
@@ -452,6 +503,7 @@ div.email img.img3 {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+        transition: all 0.5s;
     }
     div.about div.tentang div.p p {
         display: block;
@@ -734,6 +786,7 @@ div.email img.img3 {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+        transition: all 0.5s;
     }
     div.about div.tentang div.p p {
         display: block;
